@@ -1,0 +1,1 @@
+name := "sapida-consumers"
