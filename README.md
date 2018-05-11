@@ -1,6 +1,8 @@
 Samza Pipeline Dashboard
 ========================
-http://![Travis](https://img.shields.io/travis/USER/REPO.svg?style=plastic) [![Waffle.io - Columns and their card count](https://badge.waffle.io/cmontemuino/sapida.svg?columns=all)](https://waffle.io/cmontemuino/sapida)
+[![Build Status](https://travis-ci.org/cmontemuino/sapida.svg?branch=master)](https://travis-ci.org/cmontemuino/sapida)
+
+![Travis](https://img.shields.io/travis/cmontemuino/sampida.svg?style=plastic) [![Waffle.io - Columns and their card count](https://badge.waffle.io/cmontemuino/sapida.svg?columns=all)](https://waffle.io/cmontemuino/sapida)
 
 Getting intel from Samza-based applications (Kafka topics and internal state stores) is not a straightforward task, and it usually requires
 lot of manual intervention, as manually consuming the Kafka topics. This may work initially, but as soon as we get more records in
