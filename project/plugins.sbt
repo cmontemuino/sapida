@@ -2,7 +2,7 @@ resolvers += Classpaths.sbtPluginReleases
 
 logLevel := Level.Warn
 
-// https://github.com/sbt/sbt-scalariform
+// https://scalameta.org/scalafmt
 addSbtPlugin("com.geirsson"  % "sbt-scalafmt" % "1.5.1")
 
 // https://github.com/dwijnand/sbt-dynver
