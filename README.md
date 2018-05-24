@@ -1,4 +1,4 @@
-Samza Pipeline Dashboard [![Build Status](https://travis-ci.org/cmontemuino/sapida.svg?branch=master)](https://travis-ci.org/cmontemuino/sapida) ![license](https://img.shields.io/github/license/cmontemuino/sapida.svg) [![Waffle.io - Columns and their card count](https://badge.waffle.io/cmontemuino/sapida.svg?columns=all)](https://waffle.io/cmontemuino/sapida)
+Samza Pipeline Dashboard
 ========================
 
 Getting intel from Samza-based applications (Kafka topics and internal state stores) is not a straightforward task, and it usually requires
@@ -8,6 +8,10 @@ the "console consumer" tools is not the best option.
  
 SaPiDa is a set of micro-services providing a Dashboard for Samza-based Pipelines, based on [Akka HTTP][Akka Http] and the
 Akka Streams library [Reactive-Kafka][Reactive-Kafka].
+
+[![Build Status](https://travis-ci.org/cmontemuino/sapida.svg?branch=master)](https://travis-ci.org/cmontemuino/sapida)
+[![license](https://img.shields.io/github/license/cmontemuino/sapida.svg)](LICENSE)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/cmontemuino/sapida.svg?columns=all)](https://waffle.io/cmontemuino/sapida)
 
 Supported versions
 ------------------
