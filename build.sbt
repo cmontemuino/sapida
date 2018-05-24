@@ -47,3 +47,6 @@ lazy val demo = project.in(file("demo"))
         .settings(commonSettings: _*)
         .settings(noPublish: _*)
         .dependsOn(core, consumers, producers, http)
+
+// Reduce verbosity during IVY resolution
+ivyLoggingLevel in ThisBuild := UpdateLogging.Quiet

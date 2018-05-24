@@ -1,17 +1,20 @@
-Samza Pipeline Dashboard
+Samza Pipeline Dashboard [![Build Status](https://travis-ci.org/cmontemuino/sapida.svg?branch=master)](https://travis-ci.org/cmontemuino/sapida) ![license](https://img.shields.io/github/license/cmontemuino/sapida.svg) [![Waffle.io - Columns and their card count](https://badge.waffle.io/cmontemuino/sapida.svg?columns=all)](https://waffle.io/cmontemuino/sapida)
 ========================
-[![Build Status](https://travis-ci.org/cmontemuino/sapida.svg?branch=master)](https://travis-ci.org/cmontemuino/sapida)
-
-![Travis](https://img.shields.io/travis/cmontemuino/sampida.svg?style=plastic) [![Waffle.io - Columns and their card count](https://badge.waffle.io/cmontemuino/sapida.svg?columns=all)](https://waffle.io/cmontemuino/sapida)
 
 Getting intel from Samza-based applications (Kafka topics and internal state stores) is not a straightforward task, and it usually requires
-lot of manual intervention, as manually consuming the Kafka topics. This may work initially, but as soon as we get more records in
-the topics, correlating the information becomes in a complex task. In addition, if Avro (or another encoding) is used, then using
-the "console consumer" tools quickly turns into in unviable. When working with a pipeline of Samza applications, then the
-situation becomes even worse.
+lot of manual intervention (e.g., manually consuming the Kafka topics with the console consumer utility). This may work initially, but as
+soon as we get more records in the topics, correlating the information quickly turns into a complex task. In addition, if Avro (or another encoding) is used, then using
+the "console consumer" tools is not the best option.
  
 SaPiDa is a set of micro-services providing a Dashboard for Samza-based Pipelines, based on [Akka HTTP][Akka Http] and the
 Akka Streams library [Reactive-Kafka][Reactive-Kafka].
+
+Supported versions
+------------------
+
+|Kafka  | Akka version | SaPiDa
+|-------|--------------|-------------------------
+|0.11.x | 2.5.x        | [release 0.10](https://github.com/cmontemuino/sapida/milestone/3)
 
 Usage
 -----
